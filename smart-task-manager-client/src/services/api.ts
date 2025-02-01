@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { Task } from '../interfaces/Task';
 
-const API_BASE_URL = 'http://localhost:5176/api'; // Make sure this matches your backend port
+//const API_BASE_URL = 'http://localhost:5176/api'; // Make sure this matches your backend port
+const API_BASE_URL = 'https://smart-task-manager-api-ffgsftgrc8bpebca.centralus-01.azurewebsites.net/api';
 
 export const api = {
     getTasks: async (): Promise<Task[]> => {

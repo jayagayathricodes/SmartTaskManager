@@ -3,7 +3,6 @@ import {
     Box,
     List,
     ListItem,
-    ListItemText,
     IconButton,
     Checkbox,
     Paper,
